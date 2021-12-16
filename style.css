@@ -64,3 +64,95 @@ p {
   font-size: 14px;
   line-height: 2rem;
 }
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  margin: 0;
+}
+
+.contrib-oy {
+  margin: 0;
+  background-color: darkorange;
+  padding: 60px;
+  text-align: center;
+}
+
+.head-oy {
+  color: white;
+  font-size: 30px;
+ 
+}
+
+.amount-oy {
+  margin: 0;
+  background-color: white;
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.grey-oy, .orange-oy {
+  width: 35%;
+}
+
+.grey-oy {
+  background-color: lightgrey;
+  margin-left: 300px;
+  padding: 20px 40px;
+}
+
+.list-oy {
+  padding: 10px 5px;
+}
+
+.lightgrey-oy {
+  background-color: rgb(218, 214, 214);
+  border-radius: 5px;
+
+}
+
+.lightorange-oy {
+  background-color: rgb(247, 157, 47);
+  border-radius: 5px;
+}
+
+.orange-oy {
+  background-color: darkorange;
+  margin-right: 300px;
+  padding: 20px 40px;
+  color: white;
+}
+
+.pound1-oy {
+  font-size: 80px;
+  margin: 15px;
+  text-align: center;
+}
+
+.button-wrapper-oy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-oy {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  position: relative;
+
+}
+
+button:hover {
+  color: darkorange;
+}
+
+
+.pound2-oy {
+  font-size: 80px;
+  margin: 15px;
+  text-align: center;
+}
